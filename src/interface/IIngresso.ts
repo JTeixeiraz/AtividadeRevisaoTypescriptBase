@@ -1,7 +1,7 @@
-export interface IIngresso{
-    evento:string
-    preco:number;
+export interface IIngresso {
+    readonly evento: string;
+    readonly preco: number;
 
-    detalhes():string;
-    validate(type:string):boolean;
+    detalhes(): string;
+    validar(): boolean;
 }
